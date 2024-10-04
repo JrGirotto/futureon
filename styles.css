@@ -1,3 +1,22 @@
+@font-face {
+    font-family: 'Flyhead';
+    src: url('fonts/Flyhead Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Flyhead';
+    src: url('fonts/Flyhead Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Flyhead';
+    src: url('fonts/Flyhead Light.otf') format('opentype');
+    font-weight: 300; /* Peso leve */
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
