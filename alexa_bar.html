@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexa Style Gradient Bar</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+
+        .alexa-bar {
+            width: 400px;
+            height: 8px;
+            border-radius: 50px;
+            background: linear-gradient(90deg, #00d8ff, #00a4e4, #0072c6, #00579f, #0072c6, #00a4e4, #00d8ff);
+            background-size: 200%;
+            animation: gradient-move 6s linear infinite;
+        }
+
+        @keyframes gradient-move {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="alexa-bar"></div>
+</body>
+</html>
